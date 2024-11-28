@@ -1,0 +1,49 @@
+body{
+background: linear-gradient(to bottom,rgb(99, 150,200), rgb(232,237,235));
+}
+.nav{
+position: fixed;
+top: 10;
+left: 10;
+background-color: aqua;
+width: 120px;
+font-weight: lighter;
+font-style: oblique
+}
+.cuadrado{
+position: absolute;
+left: 800px;                                                             
+right: 10px;
+width: 100px;
+height: 100px;
+bottom: 5px;
+top: 15px;
+background-color: blue;
+}
+
+.rombo{
+width: 100px;
+height: 100px;
+background-color: rgb(238, 10, 10);
+bottom: 5px;
+position: relative;
+top: 5px%;
+left: 900px;
+right: 5px;
+transform: rotate(45deg);
+}
+.circulo{
+width: 95px;
+height: 80px;
+background-color: blueviolet;
+border-radius: 75%;
+position: static;
+top: 75%;
+left: 55%;
+right: 40%;
+}
+.summary{
+    font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    }
